@@ -1,0 +1,98 @@
+:root {
+    --mainColor: purple;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.innerContainer {
+    height: 900px;
+    width: 1420px;
+    margin: 0 auto;
+}
+
+.leftSide {
+    background-image: url(./images/bg-main-desktop.png);
+    height: 900px;
+    width: 483px;
+    float: left;
+}
+
+.rightInner {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 900px;
+    width: 937px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.datesTitle {
+    display: flex;
+    width: 350px;
+}
+
+.datesInputs {
+    display:flex;
+    width: 350px;
+}
+
+.dateInput, .monthInput {
+    display: inline;
+    width: 100px;
+    margin-right: 5px;
+    
+}
+
+.cvcInput {
+    width: 120px;
+    margin-left: 22px;
+}
+
+.cvcP {
+    position: relative;
+    right: -62px;
+}
+
+.button {
+    color: white;
+    background-color: var(--mainColor);
+    width: 350px;
+    margin-top: 20px;
+
+}
+
+.button:hover {
+    color: white;
+}
+
+.inputLabel {
+    color: var(--mainColor);
+    width: 350px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.nameInput, .cardInput {
+    width: 350px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.hideForNow {
+    display: none;
+}
+
