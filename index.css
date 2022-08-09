@@ -1,10 +1,74 @@
 :root {
-    --mainColor: purple;
+    --mainColor: hsl(278, 68%, 11%);
+    --cardText: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .main {
     height: 100vh;
     width: 100vw;
+    
+}
+
+.card1 {
+    background-image: url(./images/bg-card-front.png);
+    width: 447px;
+    height: 245px;
+    color: var(--cardText);
+    position: relative;
+    top: 185px;
+    left: 185px;
+}
+
+.cardLogo {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.cardNum {
+    position: relative;
+    top: 80px;
+    left: 38px;
+    letter-spacing: 6px;
+    font-size: 24px;
+}
+
+.cardName {
+    position: relative;
+    top: 115px;
+    left: 25px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.cardDate {
+    position: relative;
+    top: 90px;
+    left: 360px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.card2 {
+    background-image: url(./images/bg-card-back.png);
+    width: 447px;
+    height: 245px;
+    color: var(--cardText);
+    position: relative;
+    top: 220px;
+    left: 270px;
+}
+
+.cardCvc {
+    position: absolute;
+    top: 106px;
+    left: 350px;
 }
 
 .innerContainer {
