@@ -102,9 +102,10 @@ body {
     /* margin: 0 auto; */
 }
 
-/* .rightInner {
-    margin: 0 auto;
-} */
+.forumWrapper {
+    display: flex;
+    flex-direction: column;
+} 
 
 .inline {
     display: inline;
@@ -168,6 +169,7 @@ body {
 
 .attribution {
     font-size: 11px; text-align: center;
+    margin-top: 25px;
 }
 
 .attribution a {
@@ -178,8 +180,8 @@ body {
     display: none;
 }
 
-  /*  
- @media screen and (max-width: 900px) {
+  
+ @media screen and (max-width: 1150px) {
     
     body {
         font-family: 'Space Grotesk', "sans-serif";
@@ -189,7 +191,7 @@ body {
         letter-spacing: 1px;
         width: 375px;
         height: fit-content; 
-        overflow: hidden;
+        /* overflow: hidden; */
         
     }
     
@@ -279,8 +281,8 @@ body {
     .rightSide {
         width: 350px;
         position: relative;
-        top: 60px;
-        /* left: 20px; 
+        top: -180px;
+        /* left: 20px; */
         margin: 0 !important;
     }
     
@@ -357,5 +359,3 @@ body {
 
 
 } 
-
-/* 
