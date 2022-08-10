@@ -1,0 +1,131 @@
+:root {
+    --mainColor: hsl(278, 68%, 11%);
+    --cardText: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--mainColor);
+    letter-spacing: 1px;
+}
+
+.mainContainer {
+    /* height: 100vh; */
+    height: 900px;
+    margin-right: 0 !important;
+}
+
+/* .row, .col-lg-4, .col-lg-8 {
+    padding: 0;
+} */
+
+.sideBackground {
+    background-image: url(./images/bg-main-desktop.png);
+    background-repeat: repeat-y;
+}
+
+/* Form Styling */
+
+.formContainer {
+    width: 430px;
+    margin: 30% auto;
+    position: relative;
+    left: 65px;
+}
+
+.inline {
+    display: inline;
+}
+
+.monthInput, .yearInput {
+    width: 60px;
+    color: black;
+}
+
+.cvcInput {
+    width: 220px;
+    color: black;
+    margin-left: 78px;
+}
+
+.input {
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px black solid;
+    padding: 8px;
+}
+
+.button {
+    margin-top: 15px;
+    color: white;
+    background-color: var(--mainColor);
+    height: 45px;
+}
+
+.cvcP {
+    margin-left: 30px;
+}
+
+
+
+/* End Form Styling */
+
+.card1 {
+    background-image: url(./images/bg-card-front.png);
+    width: 447px;
+    height: 245px;
+    /* background-size: 100%; */
+    color: var(--cardText); 
+    position: relative;
+    top: 175px;
+    left: 135px;
+}
+
+.card2 {
+    background-image: url(./images/bg-card-back.png);
+    width: 447px;
+    height: 245px;
+    color: var(--cardText);
+    position: relative;
+    top: 225px;
+    left: 225px;
+}
+
+.cardLogo {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.cardNum {
+    position: relative;
+    top: 80px;
+    left: 38px;
+    letter-spacing: 6px;
+    font-size: 24px;
+}
+
+.cardName {
+    position: relative;
+    top: 105px;
+    left: 32px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.cardDate {
+    position: relative;
+    top: 65px;
+    left: 365px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.cardCvc {
+    position: absolute;
+    top: 107px;
+    left: 350px;
+}
+
