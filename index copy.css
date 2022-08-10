@@ -12,7 +12,7 @@ body {
     color: var(--mainColor);
     letter-spacing: 1px;
     height: 900px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main {
@@ -20,7 +20,6 @@ body {
     width: 100vw;
     
 }
-
 
 .card1 {
     background-image: url(./images/bg-card-front.png);
@@ -56,7 +55,7 @@ body {
 
 .cardDate {
     position: relative;
-    top: 73px;
+    top: 90px;
     left: 360px;
     letter-spacing: 2px !important;
     font-size: 16px;
@@ -88,16 +87,19 @@ body {
     background-image: url(./images/bg-main-desktop.png);
     height: 900px;
     width: 483px;
-    /* background-repeat: repeat-y; */
+    float: left;
+    background-repeat: repeat-y;
 }
 
-/* .rightInner {
-    margin: 0 auto;
-} */
-
-/* .rightSide {
-    margin: 0 auto;
-} */
+.rightInner {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 900px;
+    width: 937px;
+    align-items: center;
+    justify-content: center;
+}
 
 .inline {
     display: inline;
@@ -135,7 +137,7 @@ body {
     background-color: var(--mainColor);
     width: 350px;
     margin-top: 20px;
-    height: 45px;
+
 }
 
 .button:hover {
@@ -173,7 +175,7 @@ body {
 
   
  @media screen and (max-width: 1441px) {
-    
+
     body {
         font-family: 'Space Grotesk', "sans-serif";
         font-weight: 500;
@@ -181,19 +183,14 @@ body {
         color: var(--mainColor);
         letter-spacing: 1px;
         width: 100vw;
-        /* height: fit-content; */
+        height: fit-content;
         overflow: hidden;
-        
     }
     
     .main {
+        /* height: 900px; */
         width: 100vw;
         
-    }
-
-    .innerContainer {
-        display: block;
-        width: 100vw;
     }
 
     .card1 {
@@ -227,7 +224,7 @@ body {
     
     .cardName {
         position: relative;
-        top: 63px;
+        top: 65px;
         left: 18px;
         letter-spacing: 2px !important;
         font-size: 10px;
@@ -236,7 +233,7 @@ body {
     
     .cardDate {
         position: relative;
-        top: 30px;
+        top: 50px;
         left: 220px;
         letter-spacing: 2px !important;
         font-size: 10px;
@@ -262,17 +259,34 @@ body {
         font-size: 14px;
     }
     
+    .innerContainer {
+        /* height: 900px; */
+        width: 375px;
+        /* margin: 0 auto; */
+    }
+    
     .leftSide {
         background-image: url(./images/bg-main-mobile.png);
         width: 100vw;
         height: 240px;
+        /* height: 900px;
+        width: 483px; */
+        /* float: left; */
+        /* background-repeat: repeat-y; */
     }
-
-    .rightSide {
+    
+    .rightInner {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* float: right; */
+        /* height: 900px; */
         width: 100vw;
+        /* align-items: center;
+        justify-content: center; */
         position: relative;
-        top: 60px;
-        left: 20px;
+        top: -200px;
+        left: 40px;
+        /* margin: 0 auto; */
     }
     
     .inline {
