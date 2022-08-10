@@ -181,8 +181,9 @@ body {
         font-size: 18px;
         color: var(--mainColor);
         letter-spacing: 1px;
+        width: 100vw;
         height: fit-content;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
     
     .main {
@@ -282,7 +283,7 @@ body {
         justify-content: center; */
         position: relative;
         top: -200px;
-        left: 50px;
+        left: 40px;
         margin: 0 auto;
     }
     
