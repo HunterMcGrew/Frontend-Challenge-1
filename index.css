@@ -180,6 +180,18 @@ body {
     display: none;
 }
 
+.success {
+    width: 957px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+
+.successImg {
+    margin-bottom: 35px;
+}
+
   
  @media screen and (max-width: 1150px) {
     
@@ -193,7 +205,6 @@ body {
         height: fit-content; 
         margin: auto;
         /* overflow: hidden; */
-        
     }
     
     .main {
@@ -357,6 +368,15 @@ body {
         color: hsl(228, 45%, 44%);
     }
 
+    .success {
+        text-align: center;
+        position: relative;
+        top: 80px;
+    }
+
+    .successImg {
+        margin-bottom: 35px;
+    }
 
 
 } 
