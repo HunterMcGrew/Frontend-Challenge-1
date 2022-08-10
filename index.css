@@ -191,6 +191,7 @@ body {
         letter-spacing: 1px;
         width: 375px;
         height: fit-content; 
+        margin: auto;
         /* overflow: hidden; */
         
     }
