@@ -181,7 +181,7 @@ body {
         font-size: 18px;
         color: var(--mainColor);
         letter-spacing: 1px;
-        /* height: 900px; */
+        height: fit-content;
         /* overflow: hidden; */
     }
     
@@ -273,13 +273,16 @@ body {
     }
     
     .rightInner {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         /* float: right; */
         /* height: 900px; */
         width: 100vw;
         /* align-items: center;
         justify-content: center; */
+        position: relative;
+        top: -200px;
+        margin: 0 auto;
     }
     
     .inline {
@@ -317,7 +320,9 @@ body {
         color: white;
         background-color: var(--mainColor);
         width: 350px;
+        height: 50px;
         margin-top: 20px;
+        font-size: 20px;
     
     }
     
