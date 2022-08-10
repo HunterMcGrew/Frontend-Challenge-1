@@ -294,6 +294,7 @@ body {
         width: 350px;
         position: relative;
         top: -180px;
+        right: 10px;
         /* left: 20px; */
         margin: 0 !important;
     }
