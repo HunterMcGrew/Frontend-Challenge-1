@@ -33,14 +33,14 @@
       <section class="leftSide">
 
         <div class="card1">
-          <img class="cardLogo" src="./images/card-logo.svg" />
-          <p class="cardNum">0000 0000 0000 0000</p>
-          <p class="cardName">JANE APPLESEED</p>
-          <p class="cardDate">00/00</p>
+          <img class="cardLogo" src="./assets/images/card-logo.svg" />
+          <p class="cardNum"><span id="num1">0000 0000 0000 0000</span></p>
+          <p class="cardName" id="nameOnCard">JANE APPLESEED</p>
+          <p class="cardDate" id="cardDate"><span id="month">00</span>/<span id="yearDate">00</span></p>
         </div>
 
         <div class="card2">
-          <p class="cardCvc">000</p>
+          <p class="cardCvc" id="cvcNum">000</p>
 
         </div>
     
@@ -56,6 +56,7 @@
         <input
           class="input nameInput rounded-2"
           type="text"
+          id="namesInput"
           placeholder="e.g. Jane Appleseed"
         />
 
@@ -63,6 +64,8 @@
         <input
           class="input cardInput rounded-2"
           type="text"
+          maxlength="20"
+          id="numInput"
           placeholder="e.g. 1234 5678 9123 0000"
         />
 
@@ -75,12 +78,20 @@
             <input
             class="input dateInput monthInput rounded-2"
             type="text"
+            maxlength="2"
+            id="monthDate"
             placeholder="MM"
           />
-          <input class="input dateInput yearInput rounded-2" type="text" placeholder="YY" />
+          <input class="input dateInput yearInput rounded-2" 
+          type="text" 
+          maxlength="2"
+          id="yearInput"
+          placeholder="YY" />
           <input
             class="input dateInput cvcInput rounded-2"
             type="text"
+            maxlength="3"
+            id="cInput"
             placeholder="e.g. 123"
           />
           </div>

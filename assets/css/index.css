@@ -23,7 +23,7 @@ body {
 
 
 .card1 {
-    background-image: url(./images/bg-card-front.png);
+    background-image: url(../images/bg-card-front.png);
     width: 447px;
     height: 245px;
     color: var(--cardText);
@@ -63,7 +63,7 @@ body {
 }
 
 .card2 {
-    background-image: url(./images/bg-card-back.png);
+    background-image: url(../images/bg-card-back.png);
     width: 447px;
     height: 245px;
     color: var(--cardText);
@@ -85,7 +85,7 @@ body {
 }
 
 .leftSide {
-    background-image: url(./images/bg-main-desktop.png);
+    background-image: url(../images/bg-main-desktop.png);
     height: 900px;
     width: 483px;
     /* background-repeat: repeat-y; */
@@ -219,7 +219,7 @@ body {
     }
 
     .card1 {
-        background-image: url(./images/bg-card-front.png);
+        background-image: url(../images/bg-card-front.png);
         width: 275px;
         height: 151px;
         background-size: contain;
@@ -265,7 +265,7 @@ body {
     }
     
     .card2 {
-        background-image: url(./images/bg-card-back.png);
+        background-image: url(../images/bg-card-back.png);
         background-size: contain;
         width: 275px;
         height: 151px;
@@ -285,7 +285,7 @@ body {
     }
     
     .leftSide {
-        background-image: url(./images/bg-main-mobile.png);
+        background-image: url(../images/bg-main-mobile.png);
         width: 375px;
         height: 240px;
     }
